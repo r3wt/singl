@@ -1,0 +1,15 @@
+{
+  "name": "singl",
+  "version": "1.0.1",
+  "description": "A convenience module for developing concise and readable singleton objects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "singleton",
+    "es6"
+  ],
+  "author": "Garrett Morris <stuckinabox@live.com> (https://github.com/r3wt)",
+  "license": "MIT"
+}
