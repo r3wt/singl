@@ -3,6 +3,10 @@
   "version": "1.0.2",
   "description": "A convenience module for developing concise and readable singleton objects.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/r3wt/singl.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
