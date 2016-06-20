@@ -2,7 +2,7 @@
 
 `npm install singl`
 
-### single 1.0.0
+### singl 1.0.3
 
 singl provides a concise interface for developing singleton objects. 
 the goal of the project is to make your module code more organized and readable. don't worry about decorating prototypes. singl does it for you.
