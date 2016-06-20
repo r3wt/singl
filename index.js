@@ -8,8 +8,10 @@ module.exports = function singl(namespace,object,freeze){
 		throw new Error('singl: `object` parameter is required');
 	}
 	
-	if(typeof namespace != 'string'){
-		throw new Error('singl: parameter `namespace` expects a string. a %s was supplied',typeof namespace);
+	var namespaceTypeRes = typeof namespace;
+	
+	if(namespaceTypeRes != 'string'){
+		throw new Error('singl: parameter `namespace` expects a string. a '+namespaceTypeRes+' was supplied');
 	}
 	
 	var obType = typeof object == 'object' && (object instanceof Array == false);
